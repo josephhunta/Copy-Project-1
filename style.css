@@ -1,0 +1,64 @@
+:root {
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #634545;
+}
+
+body {
+  margin: 10px;
+}
+#app {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto;
+}
+
+.item {
+  border: 1px solid black;
+}
+
+.Header {
+  height: 100px;
+  font-size: 25px;
+}
+
+.navigation {
+  display: flex;;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.navigation a{
+  width: 500px;
+  height: 102px;
+  margin: 0;
+  text-align: center;
+}
+
+.navigation a {
+  margin: 5px;
+}
+
+.Introduction {
+  height: 900px;
+}
+
+.Sponsors {
+  height: 800px;
+}
+
+.Guide{
+  height: 500px;
+}
+
+.Podcast {
+  height: 900px;
+}
+
+.Workshop {
+  height: 800px;
+}
+
+.Footer {
+  height: 800px;
+}
